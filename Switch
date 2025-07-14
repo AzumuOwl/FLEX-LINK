@@ -1,0 +1,12 @@
+en
+conf t
+interface gi0/21
+switchport
+switchport backup interface gi0/22
+no shutdown
+exit
+
+interface gi0/22
+switchport
+no shutdown
+exit
